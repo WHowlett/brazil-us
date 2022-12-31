@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -77,6 +79,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Vollkorn', serif;
+
 }
 
 html,
@@ -104,4 +108,52 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+body,
+body[data-theme="light"] {
+  --color-text-primary: #27201a;
+  --color-text-secondary: #090769;
+  --color-bg-primary: #fff;
+  --color-bg-toggle: #1e90ff;
+}
+
+body[data-theme="dark"] {
+  --color-text-primary: #e3e3e3;
+  --color-text-secondary: #392b21;
+  --color-bg-primary: #15232d;
+  --color-bg-toggle: #a9a9a9;
+}
+/*This is for dark and light modes*/
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: sans-serif;
+  transition: background 0.25s ease-in-out;
+}
+
+h1 {
+  color: var(--color-text-secondary);
+}
+
+
+.card-center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.english, .port, hr {
+  width: 75%;
+  margin: auto;
+
+  
+}
+
+.nav-bar-pad {
+  padding: none !important;
 }
