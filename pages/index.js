@@ -93,8 +93,10 @@ export default function Home() {
       </div>
       <div className='text-center'>
         <Button>
+          <div>
           <Link href="https://wa.me/+5527993122966">Contact Developer via Whatsapp
           </Link>
+          </div>
         </Button>
         <br />
       </div>

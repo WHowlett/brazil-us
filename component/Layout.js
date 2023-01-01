@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
     return (
         <div>
             <Head>
@@ -19,11 +19,13 @@ export default function Layout({ children, home }) {
             <div>
                 <Navbar bg="info" expand="lg">
                     <Navbar.Brand href="#home">
+                        <div>
                         <Image
                             src="/Brazil-US.png"
                             width="50"
                             height="50">
                         </Image>
+                        </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
