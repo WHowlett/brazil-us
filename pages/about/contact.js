@@ -3,7 +3,7 @@ import Layout from '../../component/Layout';
 import Form from '../../component/contact';
 import Image from 'next/image'
 import Link from 'next/link';
-import Button from 'react-bootstrap/button';
+import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
     return(
