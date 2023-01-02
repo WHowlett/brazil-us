@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Layout from '../../component/Layout';
 import Form from '../../component/contact';
 import Image from 'next/image'
+import Link from 'next/link';
+import Button from 'react-bootstrap/button';
 
 export default function Contact() {
     return(
@@ -34,6 +36,16 @@ export default function Contact() {
                     <p>Hello, my name is Wayne Howlett and I am the creator of this website. I hope that it will be a helpful resource for those seeking information and assistance. The website has been designed using Next.js and React, two popular frameworks for full stack development. In the coming weeks, there will be many new developments and additional resources added to the website. If you have any questions or feedback on how to improve the website, please don't hesitate to contact me. I am also seeking volunteers to write blog posts or breaking news articles that will provide valuable information and help to our readers. Thank you for visiting the website and I hope you find it useful.</p>
                 </div>
             </div>
+            <div className='text-center'>
+        <Button>
+          <div>
+            <Link href="https://wa.me/+5527993122966">Contact Developer via Whatsapp
+            </Link>
+          </div>
+        </Button>
+        <br />
+
+      </div>
             <br/>
             <Form />
         </Layout>

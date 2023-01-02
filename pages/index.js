@@ -5,7 +5,6 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup';
 import Greeting from '../component/greeting';
 import Image from 'next/image';
-import Link from 'next/link';
 
 
 
@@ -90,18 +89,9 @@ export default function Home() {
           <p>The website that is being developed will have a variety of features added in the coming weeks. These features will include a chat function for users to discuss different topics, a timetable with graphics, access to documents and information on various subjects, and a blog section that is managed by contributors. The goal of the website is to have all information that users might need in one place and to provide a platform for users to ask questions and get answers. Some additional ideas for features that could be added to the website include a search function, interactive tools or calculators, user accounts, a forum or discussion board, personalization options, video content, social media integration, a news feed, polls or surveys, email newsletters, user-generated content, a Q&A section, personalized recommendations, translation options, and a mobile app.</p>
         </div>
       </div>
-      <div className='text-center'>
-                    <Button>
-                        <div>
-                            <Link href="https://wa.me/+5527993122966">Contact Developer via Whatsapp
-                            </Link>
-                        </div>
-                    </Button>
-                    <br />
-
-                </div>
-                <div>
-                </div>
+      
+      <div>
+      </div>
     </Layout>
   )
 };
