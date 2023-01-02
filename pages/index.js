@@ -3,10 +3,9 @@ import Layout from '../component/Layout';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup';
-import Link from 'next/link';
-
 import Greeting from '../component/greeting';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 
@@ -92,14 +91,17 @@ export default function Home() {
         </div>
       </div>
       <div className='text-center'>
-        <Button>
-          <div>
-          <Link href="https://wa.me/+5527993122966">Contact Developer via Whatsapp
-          </Link>
-          </div>
-        </Button>
-        <br />
-      </div>
+                    <Button>
+                        <div>
+                            <Link href="https://wa.me/+5527993122966">Contact Developer via Whatsapp
+                            </Link>
+                        </div>
+                    </Button>
+                    <br />
+
+                </div>
+                <div>
+                </div>
     </Layout>
   )
 };
